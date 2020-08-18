@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fa4d081f38.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        padding: 0%;
+        margin: 0%;
+        color: white;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
+        background-size: cover;
+
+
+
+    }
+
+    header::before {
+
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #full {
+        display: grid;
+        grid-template-areas:
+            'nav '
+            'phone'
+            's2 ';
+    }
+
+    .phone {
+        grid-area: phone;
+    }
+
+    #nav {
+        grid-area: nav;
+    }
+
+    #s2 {
+        grid-area: s2;
+    }
+
+
+    ul {
+
+        font-size: 20px;
+        font-family: 'Bree Serif', serif;
+    }
+
+    li {
+        list-style: none;
+        text-decoration: none;
+        padding: 13px 20px;
+        float: right;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .spe {
+        float: left;
+    }
+
+
+    .phone h4 {
+        float: right;
+        margin: 0px;
+        padding-right: 20px;
+    }
+
+    .soc1 {
+        font-size: 25px;
+        color: white;
+    }
+
+
+
+    .s2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .wi {
+        height: 100px;
+
+    }
+
+</style>
+
+<body>
+    <section id="full">
+        <header>
+
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li class="spe"> THE CAFE</li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <div class="phone">
+            <div class="soc">
+                <a href="https://twitter.com/?lang=en" class="soc1"><i class="fab fa-twitter"
+                        id="tw">&nbsp;&nbsp;</i></a><a href="https://www.google.com/gmail/" class="soc1"><i
+                        class="far fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.whatsapp.com/"
+                    class="soc1"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <h4>Mobile:- 9910474619 </h4>
+        </div>
+
+
+        <section class="s2" id="s2">
+            <div class="s2d">
+                <div class="wel">
+                    <img src="http://mydowntowncafe.com/img/welcome_1.png" alt="" class="wi">
+                    <h2>The Cafe - Where the food is delicious, coffee is warm and conversations are never ending.
+                    </h2>
+                    <h1>Our Menu</h1>
+
+                </div>
+            </div>
+        </section>
+    </section>
+
+        </div>
+    </section>
+
+</body>
+<script>
+
+</html>

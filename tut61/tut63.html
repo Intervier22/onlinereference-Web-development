@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download ncert book</title>
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="pb.css">
+    <script src="tut63.js"></script>
+</head>
+<style>
+    body {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .bar {
+        border: 2px solid black;
+        height: 3px;
+        border-radius: 9px;
+        display: block;
+        margin: 5px;
+        width: 50px;
+        display: none;
+    }
+
+
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+
+
+    /* Navigation Bar */
+    #navbar {
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+
+    #navbar::before {
+        content: "";
+        background-color: black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.7;
+    }
+
+    /* Navigation Bar: Logo and Image */
+    #logo {
+        margin: 10px 34px;
+    }
+
+    #logo img {
+        height: 59px;
+        
+        margin: 3px 6px;
+    }
+
+
+    /* Navigation Bar: List Styling */
+
+    #navbar ul {
+        display: flex;
+        font-family: 'Baloo Bhai', cursive;
+    }
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 1.3rem;
+    }
+
+    #navbar ul li a {
+        color: white;
+        display: block;
+        padding: 3px 22px;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+
+    #navbar ul li a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    .g7 {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        
+        overflow: hidden;
+        overflow-x: scroll;
+
+    }
+
+    .g7 a {
+        color: black;
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+        
+    }
+    .item{
+        border: 2px solid black;
+        margin: 5px;
+
+justify-content: center;
+        border-radius: 6px;
+    }
+</style>
+
+<body>
+    <div class="menu" onclick="onClickMeny()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+    </div>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://i.pinimg.com/originals/43/7d/27/437d272218b2a4a2c27b1ebd595d64a8.jpg"
+                alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">FOR GRADE 7</a></li>
+            <li class="item"><a href="#">FOR GRADE 8</a></li>
+            <li class="item"><a href="#">FOR GRADE 9</a></li>
+            <li class="item"><a href="#">FOR GRADE 10</a></li>
+        </ul>
+    </nav>
+    <div class="con">
+
+        <div class="g7" id="g7">
+            <div class="item">
+                <a href="">CLICK TO DOWNLOAD</a>
+
+                <img src="https://images-na.ssl-images-amazon.com/images/I/91-nMNTMtBL.jpg" alt="">
+            </div>
+            <div class="item">
+                <a href="">CLICK TO DOWNLOAD</a>
+                <img src="https://5.imimg.com/data5/AS/VK/MY-10953353/science-class-7-ncert-book-500x500.jpg" alt="">
+
+            </div>
+            <div class="item">
+                <a href="">CLICK TO DOWNLOAD</a>
+                <img src="https://lh3.googleusercontent.com/proxy/-WWFGhw-bX7AOI18-92sd3M81vqOFsYLygMXQZ1Ih5s9_6R_eykqE5HAxdPazdYx_WpHq3eKP8MdqMcvJ1GNV8OS_qkLo2SS4NkMlJxQbRjeJJd2rcga6IbO4L-PR_gDRmJPchYaj54"
+                    alt="">
+
+            </div>
+            <div class="item">
+                <a href="">CLICK TO DOWNLOAD</a>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/512Jxme8PAL._SX379_BO1,204,203,200_.jpg"
+                    alt="">
+
+            </div>
+            <div class="item">
+                <a href="">CLICK TO DOWNLOAD</a>
+                <img src="https://media-mycbseguide.s3.ap-south-1.amazonaws.com/images/blog/07_Hindi_Book.jpg" alt="">
+
+            </div>
+            <div class="item">
+                <a href="">CLICK TO DOWNLOAD</a>
+                <img src="https://lh3.googleusercontent.com/proxy/U3tBMO1bJ4cW6yRRGu8O3STLtjEzYfUmPyA05eNNEmkcd8A2G-Q9bPh-E9sLwDwv8TEvsOlUAs9Hsu0PUOEVriMGWohIwLTi7PANA1qLf_KOWbhAlyYUXSYZAWi3I_k"
+                    alt="">
+
+            </div>
+            <div class="item">
+         
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

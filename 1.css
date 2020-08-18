@@ -1,0 +1,35 @@
+
+.s4{
+    height: 100px;
+}
+.hc{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.NOT{
+    height: 50px;
+}
+.cl1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100px;
+
+    
+}
+.s2 {
+    background-color: white;
+    color: black;
+    height: 1200px;
+}
+.servicesf{
+    flex-wrap: wrap;
+}
+

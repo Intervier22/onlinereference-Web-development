@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grids</title>
+    <style>
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'section section section aside'
+    ;
+}
+.item{
+    padding: 23px;
+    background-color: deeppink;
+    border: 2px solid black];
+}
+#navbar{
+    grid-area: navbar;
+}
+#section{
+    grid-area: section;
+}
+#aside{
+    grid-area: aside;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar" class="item">
+            HOME CONTACT ABOUT CONTACT US
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione maxime error fugiat modi laborum dolor ab nam, laudantium illo eligendi, explicabo illum dolores odio incidunt? Facilis ipsa cumque illo provident?
+        </div>
+        <div id="aside" class="item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tenetur tempora assumenda ut nisi voluptatum?
+        </div>
+        
+    </div>
+</body>
+</html>

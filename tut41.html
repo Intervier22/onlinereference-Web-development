@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>SIMPLE WEBSITE LAYOUT</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'section section section aside'
+    ;
+}
+.item{
+    border: 3px solid black;
+}
+#navbar{
+    grid-area: navbar;
+
+}
+#section{
+    grid-area: section;
+}
+#aside{
+    grid-area: aside;
+}
+       
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        li a{
+            text-decoration: none;
+            padding: 10px;
+        }
+        a{
+            color: black;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        .img{
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: 1fr 1fr ;
+        }
+        @media only screen and (max-width:300px) {
+        body {
+            background-color:rgb(133, 45, 173);
+        }
+        .container {
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section section'
+                'aside aside aside aside'
+                'footer footer footer footer ';
+        }
+        aside{
+            display: none;
+        }
+        span{
+            display: block;
+            text-align: center;
+        }
+    }
+
+    @media only screen and (min-width: 300px) and (max-width:500px) {
+        body {
+            background-color: rgb(218, 95, 211);
+        }
+        .container {
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section section'
+                'aside aside aside aside'
+                'footer footer footer footer ';
+        }
+        aside{
+            display: none;
+        }
+        span{
+            display: block;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 500px) and (max-width:800px) {
+        body {
+            background-color: rgb(205, 231, 156);
+        }
+
+        .container {
+            grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section section'
+                'aside aside aside aside'
+                'footer footer footer footer ';
+        }
+        span{
+            display: block;
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 800px) {
+        body {
+            background-color: rgb(206, 206, 206);
+        }
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav id="navbar" class="item">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div id="section" class="item">
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor autem ratione nulla dignissimos amet minus ullam? Quod officia ut placeat quia eaque, modi reiciendis, quae neque culpa cupiditate porro molestias itaque minus, rem iusto. Porro fugiat accusamus ad vero ea temporibus ut distinctio, nam exercitationem molestias numquam ipsa dignissimos corporis quidem corrupti ducimus et sit consequuntur, impedit, aut voluptates. Quia animi, eius reprehenderit ipsam facilis itaque autem aliquam quidem repudiandae ex minus iure molestiae nam corrupti quae porro dolor. Iste voluptatibus ducimus quod libero magni iusto tenetur sint aut voluptates corrupti. Natus quae distinctio consectetur doloremque non velit aspernatur fuga nesciunt minus dignissimos! Maxime, laboriosam quia repellendus laudantium soluta consectetur nostrum voluptatibus dolores, modi blanditiis dolore doloremque sint, eos illo inventore odit!</p>
+        </div>
+        <div id="aside" class="item">
+<div class="img">
+    <img src="https://images.unsplash.com/photo-1593642532842-98d0fd5ebc1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="">
+    <img src="https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+    <img src="https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="">
+</div>
+        </div>
+    </div>
+</body>
+
+</html>

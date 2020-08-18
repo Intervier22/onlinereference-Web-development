@@ -1,0 +1,21 @@
+/* Navigation */
+#navbar  {
+    display: none;
+}
+.bar {
+    border: 2px solid white;
+    height:3px;
+    border-radius: 9px;
+    display: block;
+    margin: 9px;
+    width: 50px;
+    display: block;
+  background-color: white;
+  cursor: pointer;
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.change .bar{
+    background-color: purple;
+}

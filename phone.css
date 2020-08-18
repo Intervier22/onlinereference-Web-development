@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+p{
+    display: none;
+    font-size: 23px;
+}
+.adit{
+
+    display: none
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+   section{
+       display: flex;
+       flex-direction: column;
+       height: 30px;
+       align-items: unset;
+       justify-content: unset;
+       margin: 0px 0px;
+   }
+.container3{
+    flex-wrap: wrap;
+}
+.container4{
+    flex-wrap: wrap;
+}
+.container5{
+    flex-wrap: wrap;
+} 
