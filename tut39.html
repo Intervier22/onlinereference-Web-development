@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS grids</title>
     <style>
+
 .container{
     display: grid;
     grid-gap: 1rem;
@@ -14,32 +15,46 @@
     ;
 }
 .item{
-    padding: 23px;
-    background-color: deeppink;
-    border: 2px solid black];
+    margin: 15px;
+    padding: 15px;
+    background-color: pink;
+    border: 2px solid black;
+    font-family: sans-serif;
+    font-size: 20px;
+    
 }
 #navbar{
     grid-area: navbar;
+
 }
 #section{
     grid-area: section;
 }
+#section img{
+    width: 350px;
+}
 #aside{
     grid-area: aside;
+
 }
 
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" >
         <div id="navbar" class="item">
-            HOME CONTACT ABOUT CONTACT US
+            Links: <a href="www.google.com">Exit Site</a>
         </div>
         <div id="section" class="item">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione maxime error fugiat modi laborum dolor ab nam, laudantium illo eligendi, explicabo illum dolores odio incidunt? Facilis ipsa cumque illo provident?
+            <h1 style="color: blue;">The Taj Mahal</h1>
+           <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="error">
         </div>
-        <div id="aside" class="item">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tenetur tempora assumenda ut nisi voluptatum?
+        <div id="aside" class="item" >
+            <font style="color: blue;">The Taj Mahal is a beautiful white marble monument located in the city of Agra on the banks of the river Yamuna.</font>
+            <p style="color: blue;">It is one of the finest examples of architecture that combines elements of mughal,Persian,Ottoman Turkish and Indian architectural styles.</p>
+            <p style="color: blue;">Located in the state of UP,it is one of the Seven Wonders of the world.
+                It was built by the Mughal Emperor Shah Jahann in memory of his wife,Mumtaz.
+            </p>
         </div>
         
     </div>
